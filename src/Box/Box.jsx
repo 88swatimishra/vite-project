@@ -23,9 +23,7 @@ const Box = () => {
                         Loan For You
                     </h1>
                 </div>
-                
-
-            </div>
+           </div>
             <div className="   pt-28  cursor-pointer font-bold   "> 
                     <img className=' w-' src=" blacks.png " alt=" logo" />
                 </div>

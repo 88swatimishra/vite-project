@@ -38,7 +38,7 @@ const Navbar = () => {
           <img className=' w-10 rounded-full' src="public/KamalA.jfif" alt=" Logo" />
           <div className=" text-blue-950 text-lg font-bold "> Kamal <span className=' text-amber-800'> Associates</span></div>
         </div>
-        <div className="hidden md:flex space-x-4 ">
+        <div className=" hidden md:flex space-x-4 ">
           <div className=' flex  justify-around  items-center '>
             <img className=' w-4 rounded-full' src="pin.png" alt=" Logo" />
             <div className="text-blue-800  cursor-pointer  space-x-1">Delhi</div>
