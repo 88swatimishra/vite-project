@@ -8,11 +8,7 @@ const AllProperty = () => {
                         <img className='   w-full  h-full  pt-10  px-2  ' src="bhk1.png" alt="Logo" />
                     </div>
                 </div>
-                
-
-               
-                
-                <div className='    '>
+             <div className='    '>
                     {/* <div className="box-content shadow-xl   h-72  w-[] border-4 bg-gray-100">
                        
                     </div> */}

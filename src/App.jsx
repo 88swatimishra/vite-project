@@ -18,12 +18,15 @@ import Flat3 from './pages/Flat3';
 import Flat4 from './pages/Flat4';
 import Login from './pages/Login';
 import Loan from './pages/Loan';
+import Instagram from './pages/Instagram';
+import Facebook from './pages/Facebook';
 function App() {
   return (
     <>
       <Router> 
         <Navbar />
           <Routes>
+
           <Route path="/" element={<Home/>}/>
           <Route path="/signup" element={<SignUp/>}/>
           <Route path="/allproperty" element={< AllProperty/>}/>
@@ -37,6 +40,9 @@ function App() {
           <Route path="/flat4" element={<Flat4/>} />
           <Route path="/login"  element={<Login/>} />
           <Route path="/loan" element={<Loan/>} />
+          <Route path="/instagram" element={< Instagram/>} />
+          <Route path="/facebook" element={< Facebook/>} />
+
           </Routes> 
       </Router>
     </>

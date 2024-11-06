@@ -3,11 +3,11 @@ import { Link } from 'react-router-dom';
 const SecondNavbar = () => {
     return (
         <div className=' '>
-            <nav className=" bg-gradient-to-r  from-blue-900 to-red-500 r-blue-900 ...  pl-80 p-6 ">
+            <nav className="  bg-blue-900 pl-80 p-6  ">
                 <div className="container flex  justify-be~tween items-center" >
                     <div className=' flex justify-between  items-center '>
                         <div className=' space-x-6 '>
-                            <Link to={'/allproperty'} >
+                            <Link to= {'/allproperty'} >
                                 <button type="button" className="py-2.5 px-5 me-2 mb-2 text-sm font-medium text-gray-900 focus:outline-none bg-white rounded-lg border border-gray-200 hover:bg-gray-200 hover:text-blue-700 focus:z-10 focus:ring-4 focus:ring-gray-100 dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700">All Property</button>
                             </Link>
 
@@ -44,7 +44,7 @@ const SecondNavbar = () => {
                                             </svg>
                                         </button>
                                     </div>
-                                    <button type="submit" className="inline-flex items-center py-2.5 px-3 ms-2 text-sm font-medium text-white  bg-[#3B38E3] rounded-lg border border-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                                    <button type="submit" className="inline-flex items-center py-2.5 px-3 ms-2 text-sm font-medium text-white  bg-[#818cf8] rounded-lg border border-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
                                         <svg className="w-4 h-4 me-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 20 20">
                                             <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m19 19-4-4m0-7A7 7 0 1 1 1 8a7 7 0 0 1 14 0Z" />
                                         </svg>Search

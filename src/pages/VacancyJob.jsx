@@ -1,7 +1,9 @@
 import React from 'react'
 const VacancyJob  =  ()  =>  {
   return (  
-    <div className=' flex  gap-9 pt-11 px-10'>
+    <div className=' flex gap-9 pt-11 px-10 '>
+
+
       <div className="max-w-sm bg-white shadow-md rounded-lg overflow-hidden">
         <div className="p-5">
           <h2 className="text-xl font-bold text-gray-800">Job Title</h2>
@@ -54,6 +56,17 @@ const VacancyJob  =  ()  =>  {
           </div>
         </div>
       </div>
+
+
+
+      <div className=''>
+      
+
+      </div>
+
+
+
+
    </div>
   )  
 };
